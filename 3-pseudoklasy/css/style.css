@@ -1,0 +1,24 @@
+#name:hover {
+    background-color: aquamarine;
+}
+
+#name:focus {
+    background-color: lightcoral;
+}
+
+.customer:first-child {
+    color: lime;
+}
+
+.customer:last-child {
+    color: red;
+}
+
+.customer:nth-child(3) {
+    background-color: blue;
+}
+
+/* co drugi piszemy z n, jak dodasz + zaczyna od linijki po plusie - od dołu liczy z nth-last-child */
+.customer:nth-child(2n + 4) {
+    background-color: lightgoldenrodyellow;
+}
