@@ -1,0 +1,25 @@
+[title] {
+    color: red;
+}
+
+[title="About me"] {
+    color: orange;
+}
+
+/* Cały wyraz */
+[title~="Container"] {
+    color: green;
+}
+
+/* Ciąg znaków */
+[title*="tainer"] {
+    color: greenyellow;
+}
+
+[title^="More"] {
+    color: violet;
+}
+
+[title$="skills"] {
+    background-color: cadetblue;
+}
