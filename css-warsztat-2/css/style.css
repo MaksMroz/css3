@@ -1,0 +1,27 @@
+.box {
+    height: 150px;
+    width: 150px;
+    margin: 20px auto;
+    background-color: firebrick;
+    transition: .3s ease-in-out .1s;
+}
+
+.box:hover {
+    border-radius: 30px;
+}
+
+.szerokosc:hover {
+    width: 300px;
+    background-color: tomato;
+}
+
+.wysokosc:hover {
+    height: 300px;
+    background-color: cadetblue;
+}
+
+.both:hover {
+    height: 300px;
+    width: 300px;
+    background-color: darkolivegreen;
+}
