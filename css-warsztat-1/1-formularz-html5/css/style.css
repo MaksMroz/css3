@@ -1,0 +1,62 @@
+form {
+    background-color: #213b50;
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+    width: 600px;
+    font-size: 14px;
+}
+
+label {
+    display: block;
+}
+
+[type="text"], [type="email"], [type="tel"], [name="city"], #message {
+    background-color: #2b4a64;
+    border: 1px solid #2b4a64;
+    width: 50%;
+    height: 25px;
+    margin: 10px 0;
+    cursor: pointer;
+    color: #fff;
+    resize: none;
+}
+
+[type="text"]:focus, [type="email"]:focus, [type="tel"]:focus, [name="city"]:focus, #message:focus {
+    background-color: #4e708c;
+    border: 1px solid white;
+    outline: none;
+}
+
+[for="agreement"] {
+    display: inline;
+    margin: 5px;
+}
+
+#message {
+    height: 120px;
+}
+
+for input[type="radio"], form input[type="checkbox"] {
+    width: 30px;
+}
+
+input[type="submit"] {
+    background-color: green;
+    border: none;
+    margin-top: 15px;
+    height: 30px;
+    color: white;
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+label[for*="male"] {
+    display: inline;
+    padding-left: 3px;
+}
+
+form input[type="checkbox"] {
+    width: 5px;
+}
