@@ -1,0 +1,14 @@
+.box {
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+}
+
+#colors {
+    background-color: yellow;
+    transition: background-color 1.5s linear .3s;
+}
+
+#colors:hover {
+    background-color: deeppink;
+}
