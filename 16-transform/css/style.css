@@ -1,0 +1,43 @@
+img {
+    height: 300px;
+    margin-bottom: 100px;
+    transition: all 0.5s;
+    box-sizing: border-box;
+}
+
+div {
+    border: 1px solid darkblue;
+}
+
+.rotate img {
+    transform: rotate(2deg);
+}
+
+.translate img {
+    transform: translate(100px, 50px);
+}
+
+.scale img:hover {
+    transform: scale(1.5, 1.5);
+    cursor: pointer;
+}
+
+@keyframes resizeAndRotate {
+    0%, 100% {
+        height: 300px;
+        transform: rotate(2deg);
+    }
+    20% {
+        height: 400px
+    }
+    50% {
+        height: 290px;
+        transform: rotate(0deg);
+    }
+}
+
+.animation img:hover {
+    animation-name: resizeAndRotate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
