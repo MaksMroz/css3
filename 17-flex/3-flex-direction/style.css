@@ -1,0 +1,24 @@
+.flex-item {
+    color: #fff;
+    border: 1px solid blue;
+    padding: 10px;
+    margin: 3px;
+    background-color: orange;
+    flex-basis: 20%;
+}
+
+.flex-item:nth-last-of-type(odd) {
+    background-color: gray;
+    flex-basis: 15%;
+}
+
+.container {
+    border: 1px dashed red;
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-wrap: wrap; */
+    flex-wrap: wrap-reverse;
+}

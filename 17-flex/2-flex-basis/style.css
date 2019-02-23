@@ -1,0 +1,18 @@
+.flex-item {
+    color: #fff;
+    border: 1px solid blue;
+    padding: 10px;
+    margin: 3px;
+    background-color: orange;
+    flex-basis: 25%;
+}
+
+.flex-item:nth-last-of-type(odd) {
+    background-color: gray;
+    flex-basis: 15%;
+}
+
+.container {
+    border: 1px dashed red;
+    display: flex;
+}
