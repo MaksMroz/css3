@@ -5,6 +5,7 @@
 body {
     font-size: 0;
 }
+/* 
 .box  {
     font-size: 16px;
     border: 10px solid firebrick;
@@ -21,5 +22,26 @@ body {
 @media (max-width: 768px) {
     .box {
         width: 100%;
+    }
+} */
+
+.box {
+    width: 100%;
+    border: 10px solid blue;
+    float: left;
+    font-size: 21px;
+}
+
+@media (min-width: 768px) {
+    .box {
+        width: 50%;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    .box {
+        width: 25%;
+        font-size: 18px;
     }
 }
