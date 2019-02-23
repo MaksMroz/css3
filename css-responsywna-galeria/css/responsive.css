@@ -1,0 +1,40 @@
+#gallery {
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+figure {
+    width: 33%;
+}
+
+section#gallery {
+    font-size: 0;
+}
+
+section#gallery header {
+    font-size: 16px;
+}
+
+section#gallery figure {
+    font-size: 12px;
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+    figure {
+        width: 50%;
+        }
+}
+
+@media (max-width: 768px) {
+    figure {
+        width: 100%;
+    }
+}
+
+@media (max-width: 479px) {
+    #gallery {
+        padding: 0;
+    }
+} 
